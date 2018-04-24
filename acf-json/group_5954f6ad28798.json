@@ -1,0 +1,302 @@
+{
+    "key": "group_5954f6ad28798",
+    "title": "Text Style",
+    "fields": [
+        {
+            "key": "field_59df5f26592bd",
+            "label": "Font Settings",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5954f7c8b0392",
+            "label": "System Name",
+            "name": "system_name",
+            "type": "text",
+            "value": null,
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5954f7e8b0393",
+            "label": "Font Weight",
+            "name": "font_weight",
+            "type": "select",
+            "value": null,
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "100": "100",
+                "200": "200",
+                "300": "300",
+                "400": "400",
+                "500": "500",
+                "600": "600",
+                "700": "700",
+                "800": "800",
+                "900": "900"
+            },
+            "default_value": [
+                400
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5954f894b0394",
+            "label": "Category",
+            "name": "category",
+            "type": "radio",
+            "value": null,
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "sans-serif": "Sans-Serif",
+                "serif": "Serif"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "sans-serif",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5954f962b0395",
+            "label": "Font Style",
+            "name": "font_style",
+            "type": "radio",
+            "value": null,
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "normal": "Normal",
+                "italic": "Italic"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "normal",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59df5f64592be",
+            "label": "Text Style Settings",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_595617a90911e",
+            "label": "Line height",
+            "name": "line_height",
+            "type": "number",
+            "value": null,
+            "instructions": "The line height is set as a unitless value. Unitless line heights are recommended due to the fact that child elements will inherit the raw number value, rather than the computed value. With this, child elements can compute their line heights based on their computed font size, rather than inheriting an arbitrary value from a parent that is more likely to need overriding.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.10",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": 9999,
+            "step": "0.01"
+        },
+        {
+            "key": "field_595a3ddce4d1e",
+            "label": "Text transform",
+            "name": "text_transform",
+            "type": "select",
+            "value": null,
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "uppercase": "Uppercase",
+                "lowercase": "Lowercase",
+                "capitalize": "Capitalize"
+            },
+            "default_value": [
+                "none"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_595a3e14e4d1f",
+            "label": "Letter spacing",
+            "name": "letter_spacing",
+            "type": "text",
+            "value": null,
+            "instructions": "Valid values are:\r\n<ul>\r\n<li>- normal<\/li>\r\n<li>- inherit<\/li>\r\n<li>- pixel value f.ex. 3px<\/li>\r\n<li>- em value f.ex. 0.3em<\/li>\r\n<\/ul>",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "normal",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5954fae61d368",
+            "label": "Font Size",
+            "name": "font_size",
+            "type": "repeater",
+            "value": null,
+            "instructions": "The font size of the text style can change between screen sizes. You can add as many breakpoints as you want but a maximum of four is suggested.\r\n\r\nThe font size set for the smallest breakpoint will be used as the minimum size for the font and thus at least one scale point is required.\r\n\r\nThe breakpoints don't need to be in the right order. They are automatically ordered from smallest to largest.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Scale Point",
+            "sub_fields": [
+                {
+                    "key": "field_595616760911c",
+                    "label": "Break Point",
+                    "name": "break_point",
+                    "type": "number",
+                    "value": null,
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 320,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1
+                },
+                {
+                    "key": "field_595616b20911d",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "number",
+                    "value": null,
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 16,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": 0,
+                    "max": 9999,
+                    "step": 1
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "wptb-text-style"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "private": true,
+    "modified": 1507811237
+}
